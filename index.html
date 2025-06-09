@@ -165,14 +165,14 @@
           particle.style.setProperty("--dy", offsetY + "px");
 
           particle.style.left = "50%";
-          particle.style.top = "47%"; // Чуть выше центра
+          particle.style.top = "47%";
           particle.style.transform = "translate(-50%, -50%) rotate(-45deg)";
 
           container.appendChild(particle);
 
           setTimeout(() => {
             particle.remove();
-          }, 2000); // Дольше живут
+          }, 2000);
         }, 50);
 
         container.addEventListener(
